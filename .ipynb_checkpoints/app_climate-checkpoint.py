@@ -29,14 +29,14 @@ Station = Base.classes.station
 session = Session(engine)
 
 
-
-#Setup Flask app
-
+####################################
+# Setup Flask app
+####################################
 app = Flask(__name__)
 
-
+################################
 #Setup Flask Routes
-
+################################
 
 @app.route("/")
 def homepage():
